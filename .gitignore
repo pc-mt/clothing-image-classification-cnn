@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+wandb/
+
+# The image dataset is intentionally not versioned.
+data/*
+!data/README.md
+
+# Generated checkpoints and reports.
+models/*.pt
+models/*.pth
+models/*.ckpt
+!models/README.md
+reports/
+
+# Editor and operating-system files.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
